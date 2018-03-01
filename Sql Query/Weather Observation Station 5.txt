@@ -1,0 +1,2 @@
+select city,min(length(city)) from station group by city order by length(city) asc limit 1;
+select city,max(length(city)) from station group by city order by length(city) desc limit 1;

@@ -1,0 +1,4 @@
+/*
+Enter your query here.
+*/
+SELECT distinct City FROM STATION WHERE substr(City,1,1) not in ('A','E','I','O','U') AND substr(city,length(city),1) not in ('a','e','i','o','u');
